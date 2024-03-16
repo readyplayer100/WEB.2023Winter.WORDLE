@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- 您能且只能在此处引入外部 CSS，禁止使用内部 CSS -->
+    <link rel="stylesheet" type="text/css" href="./style/wordle.css">
+    <!-- 您能且只能在此处引入外部 JavaScript，禁止使用内部 JavaScript -->
+    <script src="./script/wordle.js"></script>
+    <title> Wordle </title>
+</head>
+<body>
+    <!-- TODO: 编写您的 HTML 代码 -->
+
+     <div id ="wordle"> Wordleへようこそ！</div> 
+     <div id ="space"> </div>
+
+    <dialog>
+      <h1 >Wordle</h1 >
+        <p id="popmsg">message</p>
+      <input type="button" value= "Input" id="idButton"></input>
+    </dialog>
+
+    <div id="answer">
+        <table id="tbl" border="1">
+             <tr>
+                <td class="one">&nbsp;</td>
+                <td class="one">&nbsp;</td>
+                <td class="one">&nbsp;</td>
+                <td class="one">&nbsp;</td>
+                <td class="one">&nbsp;</td>
+            </tr>
+            <tr>
+                <td class="one">&nbsp;</td>
+                <td class="one">&nbsp;</td>
+                <td class="one">&nbsp;</td>
+                <td class="one">&nbsp;</td>
+                <td class="one">&nbsp;</td>
+              </tr>
+              <tr>
+                <td class="one">&nbsp;</td>
+                <td class="one">&nbsp;</td>
+                <td class="one">&nbsp;</td>
+                <td class="one">&nbsp;</td>
+                <td class="one">&nbsp;</td>
+              </tr>
+              <tr>
+                <td class="one">&nbsp;</td>
+                <td class="one">&nbsp;</td>
+                <td class="one">&nbsp;</td>
+                <td class="one">&nbsp;</td>
+                <td class="one">&nbsp;</td>
+              </tr>
+              <tr>
+                <td class="one">&nbsp;</td>
+                <td class="one">&nbsp;</td>
+                <td class="one">&nbsp;</td>
+                <td class="one">&nbsp;</td>
+                <td class="one">&nbsp;</td>
+              </tr>
+              <tr>
+                <td class="one">&nbsp;</td>
+                <td class="one">&nbsp;</td>
+                <td class="one">&nbsp;</td>
+                <td class="one">&nbsp;</td>
+                <td class="one">&nbsp;</td>
+              </tr>
+        </table>
+    </div>
+    <div id="keyboard">
+        
+        <div id="row1">
+            <input class="letter" id="q" type="button" value="Q" />
+            <input class="letter" id="w" type="button" value="W" />
+            <input class="letter" id="e" type="button" value="E" />
+            <input class="letter" id="r" type="button" value="R" />
+            <input class="letter" id="t" type="button" value="T" />
+            <input class="letter" id="y" type="button" value="Y" />
+            <input class="letter" id="u" type="button" value="U" />
+            <input class="letter" id="i" type="button" value="I" />
+            <input class="letter" id="o" type="button" value="O" />
+            <input class="letter" id="p" type="button" value="P" />
+        </div>
+
+        <div class="space001"></div>
+  
+       
+        <div id="row2">
+            <input class="letter" id="a" type="button" value="A" />
+            <input class="letter" id="s" type="button" value="S" />
+            <input class="letter" id="d" type="button" value="D" />
+            <input class="letter" id="f" type="button" value="F" />
+            <input class="letter" id="g" type="button" value="G" />
+            <input class="letter" id="h" type="button" value="H" />
+            <input class="letter" id="j" type="button" value="J" />
+            <input class="letter" id="k" type="button" value="K" />
+            <input class="letter" id="l" type="button" value="L" />
+            <input class="enter"  name="enter" type="button" value="ENTER" />
+        </div>
+        
+        <div class="space001"></div>
+
+        <div id="row3">
+            <input class="letter" id="z" type="button" value="Z" />
+            <input class="letter" id="x" type="button" value="X" />
+            <input class="letter" id="c" type="button" value="C" />
+            <input class="letter" id="v" type="button" value="V" />
+            <input class="letter" id="b" type="button" value="B" />
+            <input class="letter" id="n" type="button" value="N" />
+            <input class="letter" id="m" type="button" value="M" />
+            <input class="backspace" name="backspace" type="button" value="Backspace" />
+        </div>
+        
+         
+        
+    </div>
+    
+    </body>
+</html>
