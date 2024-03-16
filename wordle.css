@@ -1,0 +1,96 @@
+/* TODO: 在本文件中编写您的 CSS 代码 */
+body {
+	width: 100%;
+	margin: auto;
+
+}
+
+#answer {
+	position: static;
+	border: 1px solid #ccc;
+	/*width: 1000px; */
+	padding: 10px;
+	cursor: move;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+}
+
+#popmsg {
+	place-items: center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 2.2rem;
+}
+
+td.one {
+	width: 50px;
+	height: 40px;
+	place-items: center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 2.2rem;
+
+}
+
+#keyboard {
+	position: static;
+	border: 1px solid #ccc;
+	/*width: 800px;*/
+	padding: 10px;
+	cursor: move;
+	text-align: center;
+	justify-content: center;
+}
+
+#row1 #row2 #row3 {
+	/*padding-left; */
+	line-height: 1.5;
+}
+
+input.letter {
+	width: 50px;
+	height: 40px;
+
+}
+
+input.backspace {
+	width: 150px;
+	height: 40px;
+}
+
+input.enter {
+	width: 150px;
+	height: 40px;
+}
+
+div.space001 {
+	height: 10px;
+}
+
+body {
+	margin: 0;
+	width: 100vw;
+	height: 100vh;
+	background-image: url("/img/background3.jpg");
+	background-position: 50% 50%;
+	background-size: contain;
+	/*background-repeat: no-repeat; */
+}
+
+#wordle {
+	height: 32px;
+	font-weight: 600;
+	line-height: 32px;
+	margin-left: 5px;
+	padding-left: 5px;
+	position: relative;
+	color: #dd63c9;
+	z-index: 0;
+	font-size: xx-large;
+	text-align: center;
+	justify-content: center;
+	top: 68px;
+}
+
+#space {
+	height: 70px;
+}
